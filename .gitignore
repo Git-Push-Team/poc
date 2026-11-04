@@ -1,0 +1,28 @@
+# segreti e configurazioni locali: MAI nel repository
+.env
+.env.*
+!.env.esempio
+*.pem
+*.key
+
+# dipendenze e file generati
+node_modules/
+.venv/
+venv/
+__pycache__/
+*.pyc
+vendor/bundle/
+.bundle/
+dist/
+build/
+tmp/
+log/
+*.log
+coverage/
+
+# editor e sistema
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.DS_Store
+Thumbs.db
